@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Events|UpcomingEvents</title>
+    <link rel="icon" href="../assets/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    
+    <!-- Header Content -->
+    <header>
+        <!-- Navbar Content -->
+        <nav class=" navbar navbar-expand-md bg">
+            <div class="logo">
+              <img src="../assets/LogoAmazingEvents.png" alt="LogoAmazingEvents">
+            </div>
+        <button class="navbar-toggler me-3 text-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#btn">
+        <i class='bx bx-menu bx-md'></i>
+        </button>
+             <div class=" collapse navbar-collapse ul-bg" id="btn">
+                <ul class="navbar-nav ms-auto">
+                    <li class=" nav-item">
+                        <a href="../html/index.html" class=" nav-link mx-3 text-white fs-5">Home</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#" class=" nav-link mx-3 text-white fs-5">Upcoming Events</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="../html/pastEvents.html" class=" nav-link mx-3 text-white fs-5">Past Events</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="../html/contact.html" class=" nav-link mx-3 text-white fs-5">Contact</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="../html/stats.html" class=" nav-link mx-3 text-white fs-5">Stats</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Carousel-Text -->
+        <section class="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <h1 class="d-block w-100">Home</h1>
+                  </div>
+                  <div class="carousel-item active">
+                    <h1 class="d-block w-100">Upcoming Events</h1>
+                  </div>
+                  <div class="carousel-item">
+                    <h1 class="d-block w-100">Past Events</h1>
+                  </div>
+                  <div class="carousel-item">
+                    <h1 class="d-block w-100">Contact Us</h1>
+                  </div>
+                  <div class="carousel-item">
+                    <h1 class="d-block w-100">Stats</h1>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-slide="prev">
+                    <a href="../html/index.html">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                  </a>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-slide="next">
+                    <a href="../html/pastEvents.html">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                  </a>
+                </button>
+              </div>
+        </section>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <div class="checkbox-nav">
+
+            <!-- CheckBox Content -->
+                <label>
+                    Category
+                    <input type="checkbox" name="Grade" value="Category">
+                </label>
+                <label>
+                    Category
+                    <input type="checkbox" name="Grade" value="Category">
+                </label>
+                <label>
+                    Category
+                    <input type="checkbox" name="Grade" value="Category">
+                </label>
+                <label>
+                    Category
+                    <input type="checkbox" name="Grade" value="Category">
+                </label>
+                <label>
+                    Category
+                    <input type="checkbox" name="Grade" value="Category">
+                </label>
+    
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+        </div>
+
+            <!-- Cards content -->
+        <section class="cards-section">
+            <div class="box">
+                <div class="imgbox">
+                    <img src="../assets/Cinema.jpg" alt="Photo Of A Cute Family Enjoying A Movie In The Cinema">
+                </div>
+                <h1>TITLE</h1>
+                <p>
+                    description text
+                </p>
+                <div class="price">
+                    <p>
+                        $####
+                    </p>
+                </div>
+                <div class="info">
+                    <button type="button" class="btn btn-primary">More Info</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="../assets/CostumeParty.jpg" alt="Photo Of A Group Of People Dressed As Clowns">
+                </div>
+                <h1>TITLE</h1>
+                <p>
+                    description text
+                </p>
+                <div class="price">
+                    <p>
+                        $####
+                    </p>
+                </div>
+                <div class="info">
+                    <button type="button" class="btn btn-primary">More Info</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="../assets/FoodFair.jpg" alt="Photo of several very luxurious and rich food dishes">
+                </div>
+                <h1>TITLE</h1>
+                <p>
+                    description text
+                </p>
+                <div class="price">
+                    <p>
+                        $####
+                    </p>
+                </div>
+                <div class="info">
+                    <button type="button" class="btn btn-primary">More Info</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="../assets/MusicConcert.jpg" alt="Photo of many people enjoying a live concert">
+                </div>
+                <h1>TITLE</h1>
+                <p>
+                    description text
+                </p>
+                <div class="price">
+                    <p>
+                        $####
+                    </p>
+                </div>
+                <div class="info">
+                    <button type="button" class="btn btn-primary">More Info</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Content -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <div class="mb-3">
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <!-- Whatasapp -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                <i class='bx bxl-whatsapp'></i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © FE11-TM Lautaro Martinez
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
